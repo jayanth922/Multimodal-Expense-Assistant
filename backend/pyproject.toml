@@ -1,0 +1,29 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jayanth922", email = "jayanth.kalyanam@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.3.4",
+    "fastapi>=0.121.2",
+    "google-adk>=1.18.0",
+    "google-genai>=1.50.1",
+    "numpy>=2.3.4",
+    "pillow>=12.0.0",
+    "pydantic-settings>=2.12.0",
+    "python-dotenv>=1.2.1",
+    "scipy>=1.16.3",
+    "sentence-transformers>=3.0.0",
+    "uvicorn[standard]>=0.38.0",
+]
+
+[project.scripts]
+backend = "backend:main"
+
+[build-system]
+requires = ["uv_build>=0.9.6,<0.10.0"]
+build-backend = "uv_build"

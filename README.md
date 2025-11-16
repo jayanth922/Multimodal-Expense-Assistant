@@ -8,6 +8,9 @@
 [![AI Powered](https://img.shields.io/badge/AI-Google%20Gemini%202.5-orange)](#features)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
+
+**Youtube Demo** : https://youtu.be/l7JiE1gR45I
+
 ---
 
 ## 🚀 Quick Start (Local Development)
